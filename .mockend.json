@@ -1,6 +1,8 @@
 {
-  "Post": {
-    "title": { "string": {} },
+  "Asignatura": {
+    "nombre": { "string": {} },
+    "profesores": { "string": {} },
+    "horarios": { "string": {} },
     "comments": {
       "hasMany": "Comment"
     }
